@@ -1,0 +1,60 @@
+$color: lightskyblue;
+
+body {
+  background: url('https://ak.picdn.net/shutterstock/videos/25065800/thumb/1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-blend-mode: lighten;
+}
+
+
+.contact_style{
+		margin-top: 100px;
+		padding:10px;
+		border: 2px solid $color;
+  		border-radius: 8px;
+  		background-color: white;
+
+  			label {
+  			color:black;
+  			}
+ }
+
+@media (min-width:800px){
+	.contact_style{
+		width: 50%;
+  	}
+ }
+
+@media (max-width:799px){
+	.contact_style{
+		width: 80%;
+  	}
+}
+
+.fname .ftext {
+	padding:15px;
+	text-align: left;
+
+}
+
+%button_template {
+	padding:8px;
+	border-radius:5px;
+}
+
+#send_button{
+	@extend %button_template ;
+	border: 1px solid $color;
+}
+
+#send_button:hover{
+		@extend %button_template ;
+		background-color: $color;
+}
+
+.contact_element:hover{
+	border: 2px solid $color;
+}

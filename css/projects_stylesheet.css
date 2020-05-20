@@ -1,0 +1,42 @@
+body {
+  background: url('https://i.pinimg.com/originals/ef/7f/b1/ef7fb1b37078b6a2aef8e40710446bfa.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-blend-mode: lighten;
+}
+
+.skills_element:hover {
+	border: 2px solid lightgray;
+	border-radius: 8px;
+}
+
+}
+.project_caption{
+	color:black;
+	text-align: center;
+}
+
+.polaroid {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+td, th, table{
+	border: 1px solid black;
+	padding:10px;
+}
+
+th {
+	text-align:center;
+}
+
+table {
+	border-collapse:collapse;
+	position: relative;
+}
